@@ -1,33 +1,46 @@
-# Awesome RESTful SQL API [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome RESTful SQL API Banner" width="100%" />
+</p>
 
-> A curated directory of leading SaaS products, DBaaS data APIs, and open-source SQL-to-REST gateways for auto-generating secure CRUD endpoints, GraphQL layers, and data APIs directly from SQL database schemas.
+# 🚀 Awesome RESTful SQL API
 
-Auto-generated RESTful SQL APIs turn database schemas directly into secure, production-ready web endpoints—handling HTTP verbs, filtering, pagination, foreign-key relations, authentication, and database-level row security (RLS) without requiring repetitive boilerplate backend code.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
----
+> 📚 A curated directory of leading SaaS products, DBaaS data APIs, and open-source SQL-to-REST gateways for auto-generating secure CRUD endpoints, GraphQL layers, and data APIs directly from SQL database schemas.
 
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Managed Platforms](#saas--managed-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Architecture & Trade-offs Guide](#architecture--trade-offs-guide)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
----
-
-## Sector Overview & Market Dynamics
-
-The RESTful SQL API and automated data layer ecosystem forms an essential subsegment bridging the **Database-as-a-Service (DBaaS)** market (estimated at **$30.5B–$42.9B** and projected to surpass **$112B+**) and the **API Management** market (valued at **~$8B–$10B** growing toward **$37B+**). Market dynamics exhibit a **moderately fragmented, bifurcated structure**: hyperscale cloud providers and multi-billion-dollar data platforms (AWS, Snowflake, ClickHouse) dominate proprietary analytical and query execution APIs, while high-growth developer platforms (Supabase, Directus, Hasura) and modular open-source gateways (PostgREST, Faucet) capture transactional and multi-database application workloads without a single winner-take-all monopoly.
+Auto-generated RESTful SQL APIs turn database schemas directly into secure, production-ready web endpoints—handling HTTP verbs, filtering, pagination, foreign-key relations, authentication, and database-level row security (RLS) without requiring repetitive boilerplate backend code. ⚡
 
 ---
 
-## SaaS & Managed Platforms
+## 📑 Table of Contents
 
-The following hosted platforms and cloud services provide auto-generated REST/HTTP interfaces, query execution APIs, or managed data gateways over relational data stores. Entries are ordered descending by company market capitalization or valuation.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Managed Platforms](#️-saas--managed-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Architecture & Trade-offs Guide](#️-architecture--trade-offs-guide)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⭐ Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-| Product / Platform | Company Valuation / Scale | Starting Tier Pricing | Free Tier Limits / Free Trial | Key Features & Best Use Case |
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The RESTful SQL API and automated data layer ecosystem forms an essential subsegment bridging the **Database-as-a-Service (DBaaS)** market (estimated at **$30.5B–$42.9B** and projected to surpass **$112B+**) and the **API Management** market (valued at **~$8B–$10B** growing toward **$37B+**). Market dynamics exhibit a **moderately fragmented, bifurcated structure**: hyperscale cloud providers and multi-billion-dollar data platforms (AWS, Snowflake, ClickHouse) dominate proprietary analytical and query execution APIs, while high-growth developer platforms (Supabase, Directus, Hasura) and modular open-source gateways (PostgREST, Faucet) capture transactional and multi-database application workloads without a single winner-take-all monopoly. 🌐
+
+---
+
+## ☁️ SaaS & Managed Platforms
+
+The following hosted platforms and cloud services provide auto-generated REST/HTTP interfaces, query execution APIs, or managed data gateways over relational data stores. Entries are ordered descending by company market capitalization or valuation. 📈
+
+| Product / Platform | 🏢 Company Valuation / Scale | 💳 Starting Tier Pricing | 🎁 Free Tier Limits / Free Trial | 🛠️ Key Features & Best Use Case |
 | :--- | :--- | :--- | :--- | :--- |
 | **[AWS Data API for Aurora](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html)** | **~$2.6T Market Cap** (Amazon parent; AWS run-rate ~$184B) | Pay-as-you-go at **$0.35 per 1M requests** (metered in 32 KB increments) | **1M requests/month free** (AWS Free Tier for 12 months) | Serverless HTTP querying for Amazon Aurora without persistent TCP connection pooling overhead. |
 | **[Snowflake SQL API](https://docs.snowflake.com/en/developer-guide/sql-api/about-endpoints)** | **~$110B–$117B Market Cap** (Public: NYSE: SNOW) | Standard Edition starting at **$2.00 per credit** (billed by second, 60s min) | **30-day free trial** with **$400 in free usage credits** | REST API (`/api/v2/statements/`) for submitting asynchronous/synchronous SQL jobs to Snowflake data warehouses. |
@@ -41,11 +54,11 @@ The following hosted platforms and cloud services provide auto-generated REST/HT
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
-Curated open-source SQL-to-REST engines, instant backend generators, and database HTTP gateways. Sorted descending by repository GitHub star count.
+Curated open-source SQL-to-REST engines, instant backend generators, and database HTTP gateways. Sorted descending by repository GitHub star count. 🌟
 
-| Project | Stars | Language | License | Primary Focus & Architecture |
+| Project | ⭐ Stars | 💻 Language | 📜 License | 🎯 Primary Focus & Architecture |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Supabase](https://github.com/supabase/supabase)** | [![Stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers) | TypeScript / Elixir | Apache 2.0 | Complete open-source Firebase alternative embedding PostgREST, GoTrue authentication, Supavisor pooling, and Realtime Postgres listening. |
 | **[NocoDB](https://github.com/nocodb/nocodb)** | [![Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | TypeScript | AGPL 3.0 | Open-source Airtable alternative that connects to MySQL, PostgreSQL, SQL Server, and SQLite to generate instant REST APIs and smart spreadsheet views. |
@@ -63,35 +76,51 @@ Curated open-source SQL-to-REST engines, instant backend generators, and databas
 
 ---
 
-## Architecture & Trade-offs Guide
+## 🏗️ Architecture & Trade-offs Guide
 
-When selecting between automated SQL-to-REST solutions, consider four primary architecture paradigms:
+When selecting between automated SQL-to-REST solutions, consider four primary architecture paradigms: 🔍
 
-1. **Database-Native Declarative Gateways (PostgREST, pREST)**
+1. **🔒 Database-Native Declarative Gateways (PostgREST, pREST)**
    * *Best for:* Teams heavily invested in PostgreSQL using native Row Level Security (RLS) and stored procedures.
    * *Trade-off:* Database-specific; requires database administrators comfortable writing SQL security grants rather than application-layer middleware.
-2. **Multi-Database API Engines (Faucet, Directus, DreamFactory)**
+2. **🔌 Multi-Database API Engines (Faucet, Directus, DreamFactory)**
    * *Best for:* Heterogeneous environments spanning MySQL, PostgreSQL, SQL Server, and Oracle.
    * *Trade-off:* Application-layer authorization models must be synchronized across disparate database tables.
-3. **Batteries-Included BaaS / App Platforms (Supabase, PocketBase, NocoDB)**
+3. **⚡ Batteries-Included BaaS / App Platforms (Supabase, PocketBase, NocoDB)**
    * *Best for:* Rapid full-stack application prototyping, mobile backends, and internal spreadsheet-like tools.
    * *Trade-off:* Couples database access with ancillary services (authentication, file storage, webhooks).
-4. **Cloud Warehouse & Analytics HTTP APIs (Snowflake SQL API, ClickHouse HTTP, AWS Data API)**
+4. **☁️ Cloud Warehouse & Analytics HTTP APIs (Snowflake SQL API, ClickHouse HTTP, AWS Data API)**
    * *Best for:* Serverless lambdas, ETL pipelines, and reporting dashboards that need stateless query execution without persistent DB connections.
    * *Trade-off:* Designed for query execution and ingestion rather than end-user CRUD application endpoints.
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-1. Fork this repository.
-2. Add or update entries in `README.md` following the tabular schema.
-3. Verify that all repository star counts, pricing figures, and links are accurate and up-to-date.
-4. Submit a Pull Request with a clear description of changes.
+1. Fork this repository. 🍴
+2. Add or update entries in `README.md` following the tabular schema. 📝
+3. Verify that all repository star counts, pricing figures, and links are accurate and up-to-date. ✅
+4. Submit a Pull Request with a clear description of changes. 🚀
 
 ---
 
-## Disclaimer
+## 💖 Support
+
+Thank you for exploring this curated guide to the RESTful SQL API ecosystem! 🙏 If you found this repository helpful:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** it with your fellow engineers, data platform teams, and architects.
+- ☕ **Buy me a coffee & support ongoing curation**: Consider sponsoring the project via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007) to help maintain and keep this ecosystem map up to date!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Restful-SQL-API&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Restful-SQL-API&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
 
 - This list is community-curated for informational and architectural evaluation purposes.
 - Exposing databases directly via HTTP endpoints requires rigorous attention to authentication, SQL injection guards, rate limiting, and Row-Level Security (RLS). Always test access controls thoroughly before production deployment.
