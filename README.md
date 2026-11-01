@@ -56,9 +56,9 @@ The following hosted platforms and cloud services provide auto-generated REST/HT
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source SQL-to-REST engines, instant backend generators, and database HTTP gateways. Sorted descending by repository GitHub star count. 🌟
+Curated open-source SQL-to-REST engines, instant backend generators, and database HTTP gateways. Sorted descending by repository GitHub Stars_Count. 🌟
 
-| Project | ⭐ Stars | 💻 Language | 📜 License | 🎯 Primary Focus & Architecture |
+| Project | ⭐ GitHub_Stars | 💻 Language | 📜 License | 🎯 Primary Focus & Architecture |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Supabase](https://github.com/supabase/supabase)** | [![Stars](https://img.shields.io/github/stars/supabase/supabase?style=social&color=white)](https://github.com/supabase/supabase/stargazers) | TypeScript / Elixir | Apache 2.0 | Complete open-source Firebase alternative embedding PostgREST, GoTrue authentication, Supavisor pooling, and Realtime Postgres listening. |
 | **[NocoDB](https://github.com/nocodb/nocodb)** | [![Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | TypeScript | AGPL 3.0 | Open-source Airtable alternative that connects to MySQL, PostgreSQL, SQL Server, and SQLite to generate instant REST APIs and smart spreadsheet views. |
@@ -99,7 +99,7 @@ When selecting between automated SQL-to-REST solutions, consider four primary ar
 
 1. Fork this repository. 🍴
 2. Add or update entries in `README.md` following the tabular schema. 📝
-3. Verify that all repository star counts, pricing figures, and links are accurate and up-to-date. ✅
+3. Verify that all repository Stars_Counts, pricing figures, and links are accurate and up-to-date. ✅
 4. Submit a Pull Request with a clear description of changes. 🚀
 
 ---
